@@ -1,0 +1,104 @@
+:root{
+  --primary: rgb(21, 0, 209);
+  --bg:var(#fbfbfd);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #9ed1cd;
+}
+#project {
+  background-color: #9ed1cd;
+}
+#footer {
+  background-color: #9ed1cd;
+}
+section {
+  padding-top: 5rem;
+}
+
+.body{
+  font-family: 'poppins', 'sans-serif';
+}
+
+.navbar .navbar-brand{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fbfbfd;
+  font-style: italic;
+  margin: 0 1rem;
+}
+
+.navbar .container .navbar-brand span{
+  color: var(--primary);
+}
+
+#navbar-toggler{
+  display: none;
+}
+
+.jumbotron .content h1{
+  font-size: 3rem;
+  /* color: #fff; */
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+.jumbotron .content h1 span{
+  font-style: oblique;
+  font-size: 3.5rem;
+  color: var(--primary);
+}
+
+.jumbotron .content p{
+  /* color: #fff; */
+  font-style: oblique;
+  font-size: 3rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+.jumbotron .content p span{
+  color: var(--primary);
+}
+
+.about .container h2{
+  font-size: 3rem;
+  font-style: oblique;
+  font-family: 'poppins';
+  color: var(--primary);
+}
+
+.project .container h2{
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-family: 'poppins', 'sans-serif';
+  font-style: oblique;
+  color: var(--primary);
+}
+
+.project .container h3{
+  font-style: italic;
+  color: var(--primary);
+}
+
+.footer .socials{
+  padding: 1rem 0;
+}
+
+.footer .socials a{
+  color: #fff;
+  margin: 1rem;
+}
+footer .socials a:hover, footer .links a:hover {
+  color: var(--bg);
+}
+
+.footer .links{
+  margin-bottom: 1.4rem;
+}
+
+.footer .link a{
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
